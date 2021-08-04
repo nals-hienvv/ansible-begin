@@ -1,0 +1,12 @@
+#[core1]
+#192.168.1.200
+
+#[core2]
+#192.168.1.201
+
+#[router:children]
+#core1
+#core2
+#[router:vars]
+#ansible_user = ansible
+#ansible_ssh_private_key_file = /Users/nals_hienvv/.ssh/id_rsa
