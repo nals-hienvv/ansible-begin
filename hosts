@@ -1,9 +1,11 @@
+[router]
+core1
+core2
+
 #[core1]
 #192.168.1.200
-
 #[core2]
 #192.168.1.201
-
 #[router:children]
 #core1
 #core2
